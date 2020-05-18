@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.2.final using JasperReports Library version 6.12.2-75c5e90a222ab406e416cbf590a5397028a52de3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="balancesheet" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isFloatColumnFooter="true" isIgnorePagination="true" uuid="4a15a4e3-9d7a-45d4-9340-c0f8d57b9efd">
+	<property name="net.sf.jasperreports.print.create.bookmarks" value="false"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="ec83c865-4905-4bd4-8c45-04ab7a279c81">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="name" class="java.lang.String"/>
+		<field name="value" class="java.lang.Long"/>
+	</subDataset>
+	<subDataset name="Dataset2" uuid="ce107cca-e3ad-4dc2-95df-1c426d2a8ad4">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="patrimony" class="java.lang.String"/>
+		<field name="value" class="java.lang.Long"/>
+	</subDataset>
+	<parameter name="ds" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="nit" class="java.lang.String"/>
+	<parameter name="fecha" class="java.lang.String"/>
+	<parameter name="ac" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="anc" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="pc" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="pnc" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="io" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="ino" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="totalActivosC" class="java.lang.Long"/>
+	<parameter name="totalActivosNC" class="java.lang.Long"/>
+	<parameter name="totalPasivosC" class="java.lang.Long"/>
+	<parameter name="totalPasivosNC" class="java.lang.Long"/>
+	<parameter name="totalActivos" class="java.lang.Long"/>
+	<parameter name="totalPasivos" class="java.lang.Long"/>
+	<parameter name="image" class="java.io.InputStream"/>
+	<parameter name="pat" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<parameter name="totalPatrimony" class="java.lang.Long"/>
+	<parameter name="totalPasPat" class="java.lang.Long"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="companyName" class="java.lang.String"/>
+	<field name="NIT" class="java.lang.String"/>
+	<field name="finalPeriod" class="java.lang.String"/>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="111">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="131" backcolor="#006699" uuid="be69bb95-1940-4235-a318-0a1a502303fa"/>
+				<textField>
+					<reportElement x="10" y="20" width="250" height="56" forecolor="#FFFFFF" uuid="cff08906-795e-4b80-a9df-9725c7d357d4"/>
+					<box>
+						<pen lineColor="#FFFFFF"/>
+					</box>
+					<textElement markup="none">
+						<font size="26" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="10" y="80" width="250" height="30" forecolor="#FFFFFF" uuid="79f9d503-c641-4909-aaac-fe58cff9edb9"/>
+					<textElement>
+						<font size="18" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$P{nit}]]></textFieldExpression>
+				</textField>
+				<image>
+					<reportElement x="460" y="10" width="117" height="110" uuid="241de01c-a08b-4bdd-9b4f-68061475daba"/>
+					<imageExpression><![CDATA[$P{image}]]></imageExpression>
+				</image>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="3"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="105">
+			<staticText>
+				<reportElement x="150" y="10" width="280" height="38" uuid="5d1b1fee-8ede-4549-aa2f-10a6f272144a"/>
+				<textElement>
+					<font size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BALANCE GENERAL]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="200" y="50" width="350" height="30" uuid="f6dcf93a-9550-454b-8601-6feac93fcfb8"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{fecha}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="170" y="50" width="20" height="30" uuid="10adba32-9d92-466d-b454-f509262cbf5c"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[a]]></text>
+			</staticText>
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="10" y="95" width="555" height="1" uuid="e642da20-a7f0-4119-85cb-eb2f1214330e"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="140">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="80" width="280" height="60" uuid="beb288c5-d868-4859-81d4-3256c4b015ae">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="b33813ca-e564-4cc9-ba1c-7a986f14cd08">
+						<dataSourceExpression><![CDATA[$P{ac}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="140" uuid="cfa12331-ad47-443d-b243-86faa39cd57e">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="5d86646e-99b1-4251-93a9-96f4acce4250"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Activo corriente]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="4206ebe6-e4e6-409b-abdd-0f8febccb53a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="fb9a977a-8fbd-482e-8811-83f34b23d884">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="a780b9d5-4b7c-4c65-b4df-48ab905dfb95"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="280" y="10" width="200" height="30" uuid="ac8c3ca2-53f0-449f-a0e3-cd18bdb93323"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PASIVO Y PATRIMONIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="10" width="200" height="30" uuid="f104622e-8080-41fc-b05d-4de01e98fc44"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ACTIVO]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement positionType="Float" x="280" y="50" width="271" height="90" uuid="d2df379a-50c3-41ec-84a5-05ccc522ab0e">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="dec1d3ff-e06b-42c9-9506-726e238c86f3">
+						<dataSourceExpression><![CDATA[$P{pc}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="135" uuid="4620eb3b-c52e-473c-92ea-aa8a92682ad4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table 1_TH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="65ab996a-d327-4f63-b0e4-9e1bd3e2ff69"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="16" isBold="true"/>
+								</textElement>
+								<text><![CDATA[PASIVO]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="5fa4223f-38e8-4a22-a9a0-791c9e62ed30"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Pasivo corriente]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="70a0afc0-a718-45b5-a12e-b6e7001f733f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="584fda66-3fd3-4a62-a8fc-41061dfadafa">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 1_CH" height="30"/>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="7a9180cc-ae7b-41d3-80b1-911caeb492c0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="440">
+			<rectangle>
+				<reportElement x="280" y="0" width="135" height="30" uuid="aeadd63e-5035-4a20-820f-53a61d461555"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="415" y="0" width="135" height="30" uuid="7c00e6c1-c8b1-4077-a95f-a6320f747f8d">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement style="Table_CH" x="415" y="0" width="135" height="30" uuid="47a02727-71f2-46a2-817d-3bee6f7513cd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{totalPasivosC}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Table_CH" x="280" y="0" width="135" height="30" uuid="1f407bc3-2f2c-4094-a671-b1ddaef2aff1"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total pasivos corrientes]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="0" width="140" height="30" uuid="90ac8960-0d48-4d63-83c4-ecc7cecf3c8d"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="0" width="140" height="30" uuid="d178db9d-906d-465e-b22b-e1d7a63b3a3c"/>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement style="Table_CH" x="140" y="0" width="140" height="30" uuid="56c04e7b-55e3-48f9-8df1-9cad57a33623">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{totalActivosC}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Table_CH" x="0" y="0" width="140" height="30" uuid="0071e343-03c5-4abd-81ac-2d6e4a1e5072"/>
+				<box>
+					<pen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total activos corrientes]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="0" y="30" width="280" height="60" uuid="b029feda-c30a-40b5-8936-1a4c488446ff">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="f25b9f35-72fc-4838-b485-34ff59f4b49d">
+						<dataSourceExpression><![CDATA[$P{anc}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="140" uuid="d94977f1-7700-456f-91cc-e31bc5d1e388">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="140" height="30" uuid="7678179b-abd3-4b56-a16f-022c9ba2f742"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Activo no corriente]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="d0fc2e7c-ae3a-4711-92df-ec7dcc585af3"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="140" uuid="fc60600b-2789-46a7-b9ca-e76d92857b4f">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 2_CH" height="30"/>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="140" height="30" uuid="d67676d8-5ea2-4ba0-857b-66db8df3212d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<componentElement>
+				<reportElement x="280" y="30" width="270" height="60" uuid="eae74499-2a9f-41f2-a140-1f3f99dcf6db">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="34a61b42-c75e-43b8-9f04-ac5e65a8eee6">
+						<dataSourceExpression><![CDATA[$P{pnc}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="135" uuid="9f786e2f-27f3-4755-904f-55ab3c25c43d">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="52c09625-2582-4165-b8d1-03f083bd2b78"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Pasivo no corriente]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="372d0edd-b17d-4a32-849c-3b01df7ebea1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="04c21a76-74fb-4433-8f45-47a1e0c1a5c2">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 3_CH" height="30"/>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="ed23dbf6-124b-482a-a9f6-33f31dcab6da">
+									<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+								</reportElement>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<frame>
+				<reportElement x="1" y="80" width="556" height="39" uuid="bbeb9b5d-9cba-4b7a-8662-2cf364650980">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<rectangle>
+					<reportElement x="279" y="10" width="135" height="30" uuid="82c7947a-e701-4f62-913c-2f8689feffb1"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="414" y="10" width="135" height="30" uuid="35215b07-beb6-4bf7-8c82-5dd0d81166bf">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement style="Table_CH" x="414" y="10" width="135" height="30" uuid="746bbf2e-20b7-431a-bfd3-e7fc1b7aba03">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalPasivosNC}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="Table_CH" x="279" y="10" width="135" height="30" uuid="4e306e42-e19e-47ba-920e-05545d2668dc"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total pasivos no corrientes]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="-1" y="10" width="140" height="30" uuid="44323e6c-3970-4a36-9917-4524bc5dc56a"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="139" y="10" width="140" height="30" uuid="0f34a434-4ed6-4159-948b-628147985659"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement style="Table_CH" x="139" y="10" width="140" height="30" uuid="d0783154-aa28-4b3a-ac65-d1da4d675241">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalActivosNC}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="Table_CH" x="-1" y="10" width="140" height="30" uuid="c2dd02bb-850f-45fe-8094-33a0ce345dd8"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total activos no corrientes]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement x="1" y="110" width="556" height="39" uuid="a938c053-533f-4956-956c-e2c944b619ef">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<rectangle>
+					<reportElement x="279" y="10" width="135" height="30" uuid="80101536-6fe4-4ccf-aee4-a7adaea392cb"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="414" y="10" width="135" height="30" uuid="bc6de798-e5c5-45c3-9535-6eec01aeaef1">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement style="Table_CH" x="414" y="10" width="135" height="30" uuid="41183a7d-1298-41b4-a2f1-aef67698a3b2">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalPasivos}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="Table_CH" x="279" y="10" width="135" height="30" uuid="87e477e7-5ee2-4ecb-8929-5a24e3f98dbe"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total pasivos]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="-1" y="10" width="140" height="30" uuid="2b7fde9e-63a7-4c29-8efe-255a6972ba46"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="139" y="10" width="140" height="30" uuid="78211c7d-0009-4016-a7a6-d2dedfe3805f"/>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement style="Table_CH" x="139" y="10" width="140" height="30" uuid="b01f8ead-1e3d-430c-a301-3f48eac693b3">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalActivos}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="Table_CH" x="-1" y="10" width="140" height="30" uuid="4b9b15b8-f8dc-4d97-ac64-6d73fac1746d"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total activos]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="279" y="100" width="135" height="30" uuid="ff2ab86b-fa77-40c3-a003-89c743985992">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement x="414" y="100" width="135" height="30" uuid="8db78128-3ff8-4e28-8281-c6f628b22c28">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<graphicElement>
+						<pen lineWidth="0.0"/>
+					</graphicElement>
+				</rectangle>
+				<textField>
+					<reportElement style="Table_CH" x="414" y="100" width="135" height="30" uuid="3f0ac18e-c4af-42b6-916d-bc62b67a5a27">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalPatrimony}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement style="Table_CH" x="279" y="100" width="135" height="30" uuid="c3ff8750-cafc-45c1-a431-7566512f270f"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total patrimonio]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="Table_CH" x="279" y="130" width="135" height="30" uuid="c9c3cadd-ba20-4225-b3c2-529a5b119386"/>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total pasivo + patrimonio]]></text>
+				</staticText>
+				<textField>
+					<reportElement style="Table_CH" x="414" y="130" width="135" height="30" uuid="59ba7481-39ef-4dd5-9f0d-abb35cd26c4c">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="08e5660b-fffa-44c1-ba6a-b3fd4a5f2c39"/>
+						<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					</reportElement>
+					<box>
+						<pen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$P{totalPasPat}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<componentElement>
+				<reportElement x="280" y="150" width="270" height="60" uuid="0b52df1e-a22a-4ec2-ad7f-02941ac0f3d5">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 4_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 4_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 4_TD"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset2" uuid="5c098872-a39c-4b48-9ba7-495ec3cfce50">
+						<dataSourceExpression><![CDATA[$P{pat}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="135" uuid="690458ca-8433-4ab2-895b-d61029b52783">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="e99fe1a5-9574-4893-a1af-4e8589ca120a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="13" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Patrimonio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="973f7db0-b340-4521-8538-e1a989a11614"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{patrimony}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="554bf2f2-df34-4890-aa06-8bc8c24cd00c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1"/>
+						<jr:detailCell style="Table 4_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="7a23a56d-b667-43cf-b7b5-fdcfe281419a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{value}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
